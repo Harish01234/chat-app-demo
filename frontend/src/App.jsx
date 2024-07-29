@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:3000'); // Replace with your server URL if different
+const socket = io('https://api-sandy-kappa-95.vercel.app/'); // Replace with your server URL if different
 
 const App = () => {
   const [messages, setMessages] = useState([]);
